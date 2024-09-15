@@ -6,7 +6,7 @@
 
 <script>
 //ChatApp
-import ChatApp from './ChatApp.vue';
+import ChatApp from '../src/components/ChatApp.vue';
 
 export default {
   name: 'App',
@@ -26,5 +26,8 @@ export default {
   margin-top: 60px;
 }
 
-/* Puedes agregar otros estilos globales aquí */
+
+body{
+  background-color: black;
+}
 </style>

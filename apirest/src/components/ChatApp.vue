@@ -22,7 +22,7 @@
   
   <script>
   import axios from 'axios';
-  import ChatMensajes from '/ChatMensajes.vue';
+  import ChatMensajes from './ChatMensajes.vue';
   
   export default {
     components: {
@@ -93,6 +93,7 @@
     height: 150px;
     border-radius: 50%;
     margin-bottom: 10px;
+    margin: 10px;
   }
   
   textarea {
